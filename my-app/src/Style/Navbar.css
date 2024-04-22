@@ -1,0 +1,32 @@
+/* styles.css */
+
+.placeholder-color::placeholder {
+    color: #ffffff; /* Set the desired placeholder color */
+  }
+  .hide-border:focus {
+    outline: none;
+    border-color: transparent;
+    box-shadow: none; /* Optionally, remove any box shadow */
+  }
+  .relative:hover .absolute {
+    display: block;
+  }
+  #author:hover .absolute {
+    display: block;
+  }
+
+  /* Add this CSS in your stylesheet */
+.underline-animation {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: blue; /* Change this to the desired color */
+    transition: width 0.5s ease; /* Adjust the duration and easing as needed */
+  }
+  
+  .relative:hover .underline-animation {
+    width: 100%;
+  }
+ 
